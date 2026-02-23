@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+/*-------nav----------*/
+
+nav{
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+nav.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFEEA9;
+  padding: 1em;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+
+/*-------nav-finish----------*/
+
+body{
+  background-color:#FFEEA9;
+}
+
+main{
+  padding-top: 2em;
+  background-color: #FEFCDB;
+}
+
+.sec1{
+  padding: 3em 1em 3em;
+  background-color: #FEFCDB;
+}
+
+.sec2{
+  padding: 3em 1em 3em;
+  background-color: #FF7D29;
+}
+
+h1{
+  color: #FF7D29;
+  font-size: 42px;
+  padding-bottom: 0.2em;
+}
+
+#titulo-y-cursor{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3em;
+}
+
+#gif{
+  max-height: 40px;
+  align-self: flex-end;
+  margin-bottom: 1em;
+}
+
+h2.titulo-1{
+  color: #FFEEA9;
+  font-size: 36px;
+  padding-bottom: 0.2em;
+  text-align: right;
+}
+
+h2.titulo-2{
+  color: #FF7D29;
+  font-size: 36px;
+  padding-bottom: 0.2em;
+  text-align: left;
+}
+
+h3#centrado{
+  color: #FF7D29;
+  font-size: 24px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+h3#izquierda{
+  color: #FF7D29;
+  font-size: 24px;
+  padding: 1em 0.5em 0.5em 0em;
+  text-align: left;
+}
+
+h3#izquierda-2{
+  color: #FFBF78;
+  font-size: 24px;
+  padding: 0.2em 0.5em 0.3em 0em;
+  text-align: left;
+}
+
+span{
+  font-weight: bold;
+}
+
+span#asterisco-1{
+  font-size: 36px;
+  color: #FFBF78;
+}
+
+span#asterisco-2{
+  font-size: 128px;
+  color: #FF7D29;
+}
+
+span#transicion-sutil-para-hablar-de-radiohead{
+  font-size: 28px;
+  color: #FFEEA9;
+}
+
+#texto-y-asterisco{
+  display: flex;
+}
+
+#texto-y-asterisco > p{
+  padding-top: 2.3em;
+  padding-left: 0.5em;
+}
+
+p{
+  color: #FFBF78;
+  font-size: 16px;
+}
+
+a{
+  color: #FFBF78;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article{
+  background-color: #ffeea95b;
+}
+
+
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img#logo-gently{
+  float: right;
+  width: 12em;
+  margin-left: 0.5em;
+}
+
+img.foto{
+  border-radius: 20px;
+  width: 10.5em;
+  margin-right: 1em;
+  margin-bottom: 0.7em;
+}
+
+img.foto-desktop{
+  display: none;
+}
+
+#foto-dibujo{
+  margin: 1em 1em 0em 0em;
+  max-width: 100%;
+}
+
+
+#foto-radiohead{
+  border-radius: 20px;
+  margin: 1em 1em 1em 0em;
+  max-width: 100%;
+}
+
+video {
+  padding-top: 2em;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+
+}
+
+
+
+
+
+
+
+
+
+/*-----------top 3 radiohead--------*/
+
+.caja-top3 {
+  border: 1px solid #FF7D29;
+  border-radius: 10px;
+  background-color: #ffeea985;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+.plegable-titulo {
+  color: #FF7D29;
+  background-color: #FFEEA9;
+  list-style-type: none;
+  padding: 0.5em 1.1em;
+  border-bottom: 1px solid #FF7D29;
+  border-radius: 10px;
+}
+
+.info{
+  margin: 1em;
+  overflow: hidden;
+
+}
+
+.info-miembros{
+  overflow: hidden;
+
+}
+
+#miembros{
+  border: #FF7D29 solid 1px;
+  border-radius: 20px;
+  padding: 0em 1em 1em;
+  margin-top: 1em;
+}
+
+img.foto-album{
+  border: 1px solid #FF7D29;
+  float: right;
+  width: 10em;
+  height: 10em;
+  border-radius: 20px;
+  margin: 0.5em;
+}
+
+
+
+
+/*-----carousel-----*/
+
+
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-container {
+  padding: 0 1em;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 250px;
+  margin-right: 1em;
+}
+
+.product-image {
+  position: relative;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff00 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+
+
+
+
+
+.redes{
+  padding: 0.3em;
+
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFEEA9;
+  padding: 1em;
+}
+
+footer p{
+  padding: 0.7em 0em 1em 0.3em;
+}
+
+footer ul{
+  text-align: center;
+}
+
+
+
+/*------------------home responsive------------------------*/
+
+@media(min-width:900px) {
+  nav.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.5em;
+    background-color: #FFEEA9;
+    padding: 1.5em 12.5em;
+  }
+ 
+ 
+  .sec1{
+    padding: 4em 12em;
+    background-color: #FEFCDB;
+  }
+  
+  .sec2{
+    padding: 4em 12em;
+    background-color: #FF7D29;
+  }
+
+  span#asterisco-2{
+    font-size: 128px;
+    color: #FF7D29;
+    padding-left: 1em;
+  }
+
+
+.miembros-banda{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+
+ /* #top-3-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    
+  }
+
+  #top-3-info > * {
+    flex-basis: 100%;
+  }
+
+  .caja-top3 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FF7D29;
+  border-radius: 10px;
+  background-color: #ffeea985;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+.plegable-titulo {
+  display: flex;
+  justify-content: space-between;
+  color: #FF7D29;
+  background-color: #FFEEA9;
+  list-style-type: none;
+  padding: 0.5em 1.1em;
+  border-bottom: 1px solid #FF7D29;
+  border-radius: 10px;
+}
+
+.info{
+  margin: 1em;
+  overflow: hidden;
+
+}
+
+*/
+
+img.foto{
+  display: none;
+  border-radius: 20px;
+  width: 10.5em;
+  margin-right: 1em;
+  margin-bottom: 0.7em;
+}
+
+img.foto-desktop{
+  display: block;
+  border-radius: 20px;
+  margin: 0.7em auto;
+  width: 50%;
+
+}
+
+.intereses{
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.intereses > *{
+  flex-basis: 100%;
+}
+
+video {
+  padding-top: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+
+}
+
+
+footer{
+  display: flex;
+    justify-content: flex-start;
+    gap: 2.5em;
+    background-color: #FFEEA9;
+    padding: 1.5em 12.5em;
+}
+
+footer ul li{
+  gap: 1em;
+}
+
+}
+
+
